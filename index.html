@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Ray Marching - Personal project </title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../style.css" />
+    </head>
+    <body class="open-sans-normal">
+        <div>
+            <h1 class="open-sans-black">Personal project</h1>
+            <h2 class="open-sans-bold">Ray Marching</h2>
+            <h3 class="open-sans-bold">Maximilien Menesguen</h3>
+        </div>
+        
+        <p style="text-align: center; font-size: 2rem" class="open-sans-bold">
+            <span id="fps">60</span> <span>FPS</span>
+        </p>
+        <div style="width: 100%">
+            <canvas
+                id="canvas"
+                width="800"
+                height="600"
+                style="width: 100%; margin: 0 auto"
+            ></canvas>
+        </div>
+
+        <script src="script.js" type="module"></script>
+        <script id="vert" src="shader.vert" type="x-shader/x-vertex"></script>
+        <script id="frag" src="shader.frag" type="x-shader/x-fragment"></script>
+    </body>
+</html>
