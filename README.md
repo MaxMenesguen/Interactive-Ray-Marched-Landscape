@@ -1,6 +1,6 @@
 # Interactive Ray-Marched Landscape
 
-Welcome to the **Interactive Ray-Marched Landscape** project! This is a simple yet visually captivating WebGL experience, showcasing a simple terrain generated using sine and cosine functions and various 3D shapes illuminated by a rotating light source. The scene creates a day-night-like effect as the light moves around the objects.
+Welcome to the **Interactive Ray-Marched Landscape** project! This is a simple yet visually captivating WebGL experience, showcasing a simple terrain generated using sine and cosine functions and various 3D shapes illuminated by a rotating light source. 
 
 ## Features
 - **Ray-Marched Terrain and Shapes**: A terrain created using sine and cosine functions for rolling hills and a few 3D shapes like spheres, boxes, and a torus.
